@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background: url("https://c.wallhere.com/photos/e1/0f/1920x1080_px_Donatello_Leonardo_Michelangelo_Raphael_Teenage_Mutant_Ninja_Turtles-829887.jpg!d") no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+  margin-top: 30px; }
+
+.slide-container {
+  margin: auto;
+  width: 600px;
+  text-align: center; }
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .wrapper:focus {
+    outline: 0; }
+
+.turtle-card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999; }
+
+.turtle-card__image {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px; }
+
+.turtle-card__image--raphael {
+  background: url("https://fotos.subefotos.com/9e3ac75f00bae5ba2e9d269a7429aa7eo.jpg"); }
+  .turtle-card__image--raphael img {
+    width: 400px;
+    position: absolute;
+    top: -65px;
+    left: -70px; }
+
+.turtle-card__image--leonardo {
+  background: url("https://fotos.subefotos.com/9e3ac75f00bae5ba2e9d269a7429aa7eo.jpg"); }
+  .turtle-card__image--leonardo img {
+    width: 400px;
+    position: absolute;
+    top: -65px;
+    left: -70px; }
+
+.turtle-card__image--donatello {
+  background: url("https://fotos.subefotos.com/9e3ac75f00bae5ba2e9d269a7429aa7eo.jpg"); }
+  .turtle-card__image--donatello img {
+    width: 340px;
+    position: absolute;
+    top: -20px;
+    left: -25px; }
+
+.turtle-card__image--miguellangelo {
+  background: url("https://fotos.subefotos.com/90d637c270219e3beadb24ba93669fa3o.jpg"); }
+  .turtle-card__image--miguellangelo img {
+    width: 370px;
+    position: absolute;
+    top: -21px;
+    left: -37px; }
+
+.turtle-card__image--splinter {
+  background: url("https://fotos.subefotos.com/9e3ac75f00bae5ba2e9d269a7429aa7eo.jpg"); }
+  .turtle-card__image--splinter img {
+    width: 345px;
+    position: absolute;
+    top: -10px;
+    left: -30px; }
+
+.turtle-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px; }
+
+.turtle-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.turtle-card__unit-stats--raphael {
+  background: #b34848; }
+  .turtle-card__unit-stats--raphael .one-third {
+    border-right: 1px solid  #943838; }
+
+.turtle-card__unit-stats--leonardo {
+  background: #6d93a1; }
+  .turtle-card__unit-stats--leonardo .one-third {
+    border-right: 1px solid #496c79; }
+
+.turtle-card__unit-stats--donatello {
+  background:#8b6ca1; }
+  .turtle-card__unit-stats--donatello .one-third {
+    border-right: 1px solid #594964; }
+
+.turtle-card__unit-stats--miguellangelo {
+  background:#e3954c; }
+  .turtle-card__unit-stats--miguellangelo .one-third {
+    border-right: 1px solid #aa5e17; }
+
+.turtle-card__unit-stats--splinter {
+  background: #9a734d; }
+  .turtle-card__unit-stats--splinter .one-third {
+    border-right: 1px solid #695138; }
+
+.turtle-card__unit-stats {
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px; }
+  .turtle-card__unit-stats .one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px; }
+  .turtle-card__unit-stats sup {
+    position: absolute;
+    bottom: 4px;
+    font-size: 45%;
+    margin-left: 2px; }
+  .turtle-card__unit-stats .stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px; }
+  .turtle-card__unit-stats .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px; }
+  .turtle-card__unit-stats .no-border {
+    border-right: none; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
